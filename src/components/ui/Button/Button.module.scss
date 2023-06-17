@@ -1,0 +1,30 @@
+.button {
+  padding: 12px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  box-sizing: border-box;
+
+  &:hover {
+    opacity: .8;
+  }
+
+  &.fill {
+    color: #fff;
+    background-color: #5558fa;
+    border: 1.5px solid #5558fa;
+  
+  }
+
+  &.outline {
+    border: 1.5px solid #5558fa;
+    color: #5558fa;
+    background-color: transparent;
+  }
+
+  &:disabled {
+    background-color: gray;
+  }
+}

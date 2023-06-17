@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "SB Sans Interface";
+  font-weight: 400;
+  src: url("SBSansInterface/Regular/SB Sans Interface.woff") format('woff'),
+  url("SBSansInterface/Regular/SB Sans Interface.woff2") format('woff2'),
+  url("SBSansInterface/Regular/SB Sans Interface.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: "SB Sans Interface";
+  font-weight: 600;
+  src: url("SBSansInterface/Bold/SB Sans Interface Bold.woff") format('woff'),
+  url("SBSansInterface/Bold/SB Sans Interface Bold.woff2") format('woff2'),
+  url("SBSansInterface/Bold/SB Sans Interface Bold.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: "SB Sans Text";
+  font-weight: 400;
+  src: url("SBSansText/SB Sans Text.woff") format('woff'),
+  url("SBSansText/SB Sans Text.woff2") format('woff2'),
+  url("SBSansText/SB Sans Text.ttf") format('truetype');
+}

@@ -1,0 +1,73 @@
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 300px;
+  position: relative;
+
+  .selector {
+    padding: 0 12px;
+    margin: 0;
+    list-style: none;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+    position: absolute;
+    top: 80px;
+    width: 300px;
+    box-sizing: border-box;
+    cursor: pointer;
+    
+    .item {
+      padding: 8px 0;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      color: #333;
+      cursor: pointer;
+    }
+  }
+
+  .label {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333;
+  }
+
+  .input {
+    padding: 12px;
+    border: #00000029 solid 1px;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    justify-content: space-between;
+
+    .input_field {
+      border: none;
+      outline: none;
+      width: 100%;
+      height: 100%;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+    }
+
+    .icon_down {
+      background-image: url(../../../images/icon-down.svg);
+      transform: rotate(-90deg);
+      width: 20px;
+      height: 20px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      transition: rotate linear 2s;
+
+      &.open {
+        transform: rotate(0deg);
+      }
+    }
+  }
+}

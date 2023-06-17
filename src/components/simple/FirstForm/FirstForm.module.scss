@@ -1,0 +1,11 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: calc(66px - 24px);
+  }
+}

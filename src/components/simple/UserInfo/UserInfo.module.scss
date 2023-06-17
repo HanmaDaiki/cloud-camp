@@ -1,0 +1,76 @@
+.profile {
+  padding: 25px 0 24px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  display: flex;
+  align-items: center;
+  gap: 25px;
+
+  .avatar {
+    font-family: 'SB Sans Text', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #212830;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #d5e4f7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+  }
+
+  .right_block {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    .name {
+      padding: 0;
+      margin: 0;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 26px;
+      color: #333;
+    }
+
+    .profile_folders {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      display: flex;
+      gap: 16px;
+
+      .folder {
+        display: flex;
+        gap: 4px;
+        font-size: 12px;
+        line-height: 16px;
+        color: #5558fa;
+        cursor: pointer;
+
+        &:hover {
+          opacity: .8;
+        }
+
+        &:before {
+          content: "";
+          width: 16px;
+          height: 16px;
+          background-image: url(../../../images/icon-folder.svg);
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 435px) {
+  .profile {
+    .right_block {
+      .profile_folders {
+        flex-wrap: wrap;
+      }
+    }
+  }
+}

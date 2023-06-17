@@ -1,0 +1,29 @@
+.label_checkbox {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  .input {
+    display: none;
+  }
+
+  .checkbox {
+    width: 16px;
+    height: 16px;
+    border: 1.5px solid #0000003D;
+    box-sizing: border-box;
+    border-radius: 4px;
+
+    &.active {
+      background-image: url(../../../images/icon-check-mark.svg);
+      background-color: #5558fa;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 8px 8px;
+    }
+  }
+}

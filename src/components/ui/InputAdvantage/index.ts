@@ -1,0 +1,1 @@
+export { InputAdvantage } from './InputAdvantage';
